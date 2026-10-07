@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+email-validator
+reportlab
+python-multipart
+pytest
+httpx
