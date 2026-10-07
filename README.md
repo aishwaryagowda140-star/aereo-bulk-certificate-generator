@@ -23,6 +23,7 @@ A backend API that accepts a bulk certificate generation request and generates i
 - Pydantic
 - ReportLab
 - Pytest
+- Uvicorn
 
 ## Project Structure
 
@@ -38,12 +39,12 @@ Aereo_Bulk_Certificate/
 │   ├── services.py
 │   └── certificate_generator.py
 │
-├── generated_certificates/
-├── templates/
 ├── tests/
 │   ├── __init__.py
 │   └── test_api.py
 │
+├── generated_certificates/
+├── templates/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
